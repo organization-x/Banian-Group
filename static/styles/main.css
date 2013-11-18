@@ -9,19 +9,33 @@ body {
     padding: 0;
     min-width: 1024px;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
+    font-size: 34px;
     line-height: 1.5em;
     color: #333333;
-    background-color: #ffffff;
+}
 
+h1 {
+	font-size: 34px;
+	font-weight: 200;
+}
+
+h2 {
+	font-size: 28px;
+	font-weight: 200;
+}
+
+h3 {
+	font-size: 22px;
+	font-weight: 200;
 }
 
 a {
   color: black;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    line-height: 1.3em;
+p {
+	font-size: 14px;
+	line-height: 22px;
 }
 
 .hidden { 
@@ -40,6 +54,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-weight: 300;
 }
 
+.left_one_third {
+	width: 30%;
+	float: left;
+	margin-right: 25px;
+	position: relative;
+	
+}
+
+
 nav {
     height: 88px;
     width: 100%;
@@ -55,8 +78,6 @@ nav .menu {
 	display: inline-block;
 	position: relative;
 }
-
-
 
 .nav #logo {
     background: url('../images/logo.png');
@@ -96,11 +117,12 @@ nav ul li a:hover {
 	font-family: muli;
 	font-size: 14px;
 	font-weight: 300;
-	background-color: black;
+	background-color: #FFE;
 }
 
 .content. spanning {
 	width: 100%;
+	background-color: black;
 	}
 
 .content #bridging {
@@ -109,37 +131,73 @@ nav ul li a:hover {
 	background: url('../images/bridge-background.jpg') no-repeat center center;
 	background-size: cover;
 	color: white;
-	display: inline-block;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0  1px 3px rgba(0, 0, 0, 0.4);
 }	
 
 .content #bridging #headline h1{
 	position: relative;
-	top: 50px;
-	left: 100px;
+	top: 70px;
+	left: 20%;
 	font-size: 60px;
-	font-weight: 300;
+	font-weight: 200;
 	display: inline;
 	line-height:120px;
 	
 }
 
 .content #bridging #headline span{
-	font-size: 80px;
-	font-weight:600;
+	font-size: 90px;
+	font-weight:300;
 }
 
 
 .content .fixed-width {
-	width: 1024px;
+	width: 1280px;
 	margin: 0 auto;
 }
 
-
-.content #experts {
-	width: 100%;
-	background-color: #fff;
-	display: inline-block;
-
+.content #experts{
+	margin-top: 20px;
 }
 
+.content #experts h1{
+	font-size: 34px;
+	font-weight: 200;
+	line-height: 50px;
+}
+
+.content #services {
+	background-color: #99cc66;
+	padding: 10px;
+	color: white;
+	height: 350px;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0  1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.content #services h1{
+	padding: 0;
+	margin:0;
+		
+}
+
+.content #services h3{
+	padding: 0;
+	margin:0;
+	font-weight: 200;
+		
+}
+
+.content #services p{
+	color: black;
+	display: inline-block;
+	margin: 0;
+}
+
+.content #services a{
+	display: inline;
+}
 
